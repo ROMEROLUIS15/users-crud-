@@ -14,7 +14,7 @@ const Modal = ({
 
     return (
         <section
-            className={`fixed top-0 bottom-0 left-0 right-0 bg-black/30 flex justify-center items-center px-3 transition-all duration-300 ${isShowModal ? "visible opacity-100" : "invisible opacity-0"
+            className={`fixed top-0 bottom-0 left-0 right-0 bg-black/30 flex justify-center items-center px-3 transition-all duration-300 z-10 ${isShowModal ? "visible opacity-100" : "invisible opacity-0"
                 }`}
         >
             <form
