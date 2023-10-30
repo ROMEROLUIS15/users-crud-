@@ -4,7 +4,7 @@ import React from 'react';
 const ConfirmationModal = ({ message, onConfirm, onCancel }) => {
     return (
         <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center z-20">
-            <div className="bg-[#26292b] p-5 rounded-md  w-[min(100%,_320px)] sm:w-auto">
+            <div className="bg-[#0a1503] p-10 rounded-md  w-[min(100%,_320px)] sm:w-auto">
                 <p className='text-white py-2'>{message}</p>
                 <div className="flex justify-center">
                     <button
