@@ -1,4 +1,4 @@
-const BASE_URL = "https://users-crud.academlo.tech";
+const BASE_URL = "https://user-crud-node-task-2-dev-pzsk.4.us-1.fl0.io";
 
 const EMPTY_FORM_VALUES = {
     email: "",
